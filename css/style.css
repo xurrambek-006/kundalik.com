@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.one,
+.two,
+.there,
+.four{
+    border-radius: 10px;
+    background-color: rgb(39, 39, 47);
+    display: inline-block;
+    width: 20%;
+    margin: 100px 0px 0px 0px;
+    padding: 3%;
+    margin: 2%;
+}
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+.img_1:hover {
+    width: 100%;
+    transform: rotate(45deg);
+}
+
+.img_2:hover {
+    width: 100%;
+    transform: translate(0px,-20px);
+}
+
+.img_3:hover {
+    width: 100%;
+    transform: scale(0.7);
+}
+
+.img_4:hover {
+    width: 100%;
+    transform: skew(-30deg);
+}
+
+
+
+
+.rang{
+    height: 100px;
+    background-image: linear-gradient(pink,yellow,red,green,blue);
+}
+
+
+.rang:hover{
+    background-image: linear-gradient(blue,green,red,yellow,pink);
+}
